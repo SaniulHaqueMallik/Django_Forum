@@ -6,8 +6,7 @@ body{
     max-width: 600px;
     height: 100%;
     margin: 0 auto;
-    border-left: 1px solid #ccc;
-    border-right: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     
 }
 .a1{
@@ -16,8 +15,8 @@ body{
 }
 .post_form{
     padding: 20px 40px;
-    border-bottom: 1px solid #ccc;
-    border-top: 1px solid #ccc;
+    border: 1px solid #ccc;
+    
 
 }
 
@@ -25,17 +24,18 @@ body{
     width: 70%;
     margin-bottom: 10px;
     padding: 10px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     
 }
+
 .post_form textarea{
     width: 70%;
     padding: 10px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
 }
 .posts li{
     display: flex;
-    border-bottom: 1px solid #ccc;
+    border: 1px solid #ccc;
     padding: 20px 40px;
     position: relative;
     list-style: none;
@@ -88,7 +88,7 @@ body{
     position: absolute;
     top: 40px;
     right: 15px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
     border-color: white ;
     padding: 10px 15px;
     font-size: 13px;

@@ -12,6 +12,10 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 
 from pathlib import Path
 
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
+
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
@@ -41,6 +45,8 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'posts',
+    'cloudinary',
+    
 ]
 
 MIDDLEWARE = [
@@ -124,6 +130,12 @@ STATICFILES_DIRS = [
     BASE_DIR/'static'
 ]
 
+cloudinary.config( 
+  cloud_name = "di0undklg", 
+  api_key = "915234862195247", 
+  api_secret = "u-WI_hmv1gag3oVxRd3wHbDns5o",
+ 
+)
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
 
