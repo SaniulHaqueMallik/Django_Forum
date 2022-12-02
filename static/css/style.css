@@ -8,11 +8,17 @@ body{
     margin: 0 auto;
     border-left: 1px solid #ccc;
     border-right: 1px solid #ccc;
+    
 }
-
+.a1{
+    position: relative;
+    left: 40px;
+}
 .post_form{
     padding: 20px 40px;
     border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+
 }
 
 .post_form input{
@@ -20,6 +26,7 @@ body{
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ccc;
+    
 }
 .post_form textarea{
     width: 70%;
@@ -61,6 +68,13 @@ body{
 .logo{
     width: 100%;
     height: 50%;
+}
+.deflogo img{
+    width: 30px;
+    height: 30px;
+    position: relative;
+    top: 36px;
+    
 }
 .posts li .menu_icon{
     width: 20px;

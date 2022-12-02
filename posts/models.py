@@ -10,6 +10,9 @@ class Post(models.Model):
     body = models.CharField(
         'Body', blank=False, null=False, max_length=140, db_index=True
     )
+    numbers = models.IntegerField(
+        'number', blank=False, null=True, db_index=True, default=0
+    )
     created_at = models.DateTimeField(
         'Created DateTime', blank=True, auto_now_add=True
     )
